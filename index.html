@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>plush.cc — форум</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- TOP NAV -->
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="index.html" class="logo">
+      <span class="logo-mark">✦</span>
+      <span class="logo-text">plush<span class="logo-accent">.cc</span></span>
+    </a>
+    <nav class="topnav">
+      <a href="index.html" class="nav-link active">Форум</a>
+      <a href="#" class="nav-link">Маркет</a>
+      <a href="#" class="nav-link">Статьи</a>
+      <a href="#" class="nav-link">Discord</a>
+    </nav>
+    <div class="topbar-right">
+      <div class="search-wrap">
+        <input type="text" class="search-input" placeholder="Поиск…">
+        <span class="search-icon">⌕</span>
+      </div>
+      <a href="login.html" class="btn btn-ghost">Войти</a>
+      <a href="register.html" class="btn btn-primary">Регистрация</a>
+    </div>
+  </div>
+</header>
+
+<!-- TICKER -->
+<div class="ticker-bar">
+  <span class="ticker-label">НОВОЕ</span>
+  <div class="ticker-track">
+    <span>Release v2.4.1 — новая версия чита &nbsp;·&nbsp; Розыгрыш ключа 🎁 &nbsp;·&nbsp; Форум обновлён &nbsp;·&nbsp; CSGO патч сегодня &nbsp;·&nbsp; Конкурс скриншотов &nbsp;·&nbsp; VIP-пользователей уже 3 400+</span>
+  </div>
+</div>
+
+<div class="page-wrap">
+
+  <!-- MAIN CONTENT -->
+  <main class="forum-main">
+
+    <!-- HERO STATS -->
+    <section class="hero-stats">
+      <div class="stat-card">
+        <span class="stat-num">128 490</span>
+        <span class="stat-label">Сообщений</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-num">24 310</span>
+        <span class="stat-label">Участников</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-num">8 740</span>
+        <span class="stat-label">Тредов</span>
+      </div>
+      <div class="stat-card highlight">
+        <span class="stat-num">341</span>
+        <span class="stat-label">Онлайн сейчас</span>
+      </div>
+    </section>
+
+    <!-- CATEGORY: GENERAL -->
+    <section class="forum-section">
+      <div class="section-head">
+        <h2 class="section-title">Общее</h2>
+      </div>
+
+      <div class="category-block">
+        <a href="forum.html" class="category-row">
+          <div class="cat-icon-wrap" style="background:#6c63ff22;color:#6c63ff">💬</div>
+          <div class="cat-info">
+            <div class="cat-name">Общение</div>
+            <div class="cat-desc">Флуд, обсуждения, оффтоп</div>
+          </div>
+          <div class="cat-meta">
+            <span class="meta-threads">2 140 тредов</span>
+            <span class="meta-posts">38 900 постов</span>
+          </div>
+          <div class="cat-last">
+            <a href="thread.html" class="last-thread-title">Как вы начали читить?</a>
+            <span class="last-thread-time">3 мин назад · <b>k1r0v</b></span>
+          </div>
+        </a>
+
+        <a href="forum.html" class="category-row">
+          <div class="cat-icon-wrap" style="background:#f5a62322;color:#f5a623">📢</div>
+          <div class="cat-info">
+            <div class="cat-name">Объявления</div>
+            <div class="cat-desc">Новости проекта и обновления</div>
+          </div>
+          <div class="cat-meta">
+            <span class="meta-threads">54 треда</span>
+            <span class="meta-posts">1 200 постов</span>
+          </div>
+          <div class="cat-last">
+            <a href="thread.html" class="last-thread-title">Обновление форума 3.0</a>
+            <span class="last-thread-time">1 час назад · <b>Admin</b></span>
+          </div>
+        </a>
+
+        <a href="forum.html" class="category-row">
+          <div class="cat-icon-wrap" style="background:#ff445522;color:#ff4455">📋</div>
+          <div class="cat-info">
+            <div class="cat-name">Правила</div>
+            <div class="cat-desc">Обязательно к прочтению</div>
+          </div>
+          <div class="cat-meta">
+            <span class="meta-threads">12 тредов</span>
+            <span class="meta-posts">88 постов</span>
+          </div>
+          <div class="cat-last">
+            <a href="thread.html" class="last-thread-title">Правила форума v2</a>
+            <span class="last-thread-time">2 дня назад · <b>Moderator</b></span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- CATEGORY: CHEATS -->
+    <section class="forum-section">
+      <div class="section-head">
+        <h2 class="section-title">Читы & Хаки</h2>
+      </div>
+
+      <div class="category-block">
+        <a href="forum.html" class="category-row">
+          <div class="cat-icon-wrap" style="background:#00e5ff22;color:#00e5ff">🎯</div>
+          <div class="cat-info">
+            <div class="cat-name">CS2 / CS:GO</div>
+            <div class="cat-desc">Аимботы, ESP, скины, обсуждение</div>
+          </div>
+          <div class="cat-meta">
+            <span class="meta-threads">3 410 тредов</span>
+            <span class="meta-posts">58 200 постов</span>
+          </div>
+          <div class="cat-last">
+            <a href="thread.html" class="last-thread-title">лучший приват 2024?</a>
+            <span class="last-thread-time">8 мин назад · <b>xXcheaterXx</b></span>
+          </div>
+        </a>
+
+        <a href="forum.html" class="category-row">
+          <div class="cat-icon-wrap" style="background:#7ed32122;color:#7ed321">🌐</div>
+          <div class="cat-info">
+            <div class="cat-name">Rust</div>
+            <div class="cat-desc">Боты, ESP, скрипты, фармеры</div>
+          </div>
+          <div class="cat-meta">
+            <span class="meta-threads">1 850 тредов</span>
+            <span class="meta-posts">22 400 постов</span>
+          </div>
+          <div class="cat-last">
+            <a href="thread.html" class="last-thread-title">ESP без бана 2024</a>
+            <span class="last-thread-time">22 мин назад · <b>ruster99</b></span>
+          </div>
+        </a>
+
+        <a href="forum.html" class="category-row">
+          <div class="cat-icon-wrap" style="background:#ff914d22;color:#ff914d">🎮</div>
+          <div class="cat-info">
+            <div class="cat-name">Другие игры</div>
+            <div class="cat-desc">Valorant, Apex, Fortnite, EFT и прочее</div>
+          </div>
+          <div class="cat-meta">
+            <span class="meta-threads">2 100 тредов</span>
+            <span class="meta-posts">19 800 постов</span>
+          </div>
+          <div class="cat-last">
+            <a href="thread.html" class="last-thread-title">Valorant undetected aimbot</a>
+            <span class="last-thread-time">45 мин назад · <b>v4l0</b></span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- CATEGORY: MARKET -->
+    <section class="forum-section">
+      <div class="section-head">
+        <h2 class="section-title">Маркет & Услуги</h2>
+      </div>
+
+      <div class="category-block">
+        <a href="forum.html" class="category-row">
+          <div class="cat-icon-wrap" style="background:#ffd70022;color:#ffd700">💰</div>
+          <div class="cat-info">
+            <div class="cat-name">Продажа</div>
+            <div class="cat-desc">Аккаунты, ключи, читы, услуги</div>
+          </div>
+          <div class="cat-meta">
+            <span class="meta-threads">4 500 тредов</span>
+            <span class="meta-posts">61 000 постов</span>
+          </div>
+          <div class="cat-last">
+            <a href="thread.html" class="last-thread-title">Продам приват CS2 дёшево</a>
+            <span class="last-thread-time">2 мин назад · <b>seller_pro</b></span>
+          </div>
+        </a>
+
+        <a href="forum.html" class="category-row">
+          <div class="cat-icon-wrap" style="background:#e91e6322;color:#e91e63">🛍️</div>
+          <div class="cat-info">
+            <div class="cat-name">Покупка</div>
+            <div class="cat-desc">Ищу читы, аккаунты, скины</div>
+          </div>
+          <div class="cat-meta">
+            <span class="meta-threads">1 200 тредов</span>
+            <span class="meta-posts">8 700 постов</span>
+          </div>
+          <div class="cat-last">
+            <a href="thread.html" class="last-thread-title">Ищу баг на Faceit</a>
+            <span class="last-thread-time">15 мин назад · <b>buyer22</b></span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- CATEGORY: CODING -->
+    <section class="forum-section">
+      <div class="section-head">
+        <h2 class="section-title">Программирование</h2>
+      </div>
+
+      <div class="category-block">
+        <a href="forum.html" class="category-row">
+          <div class="cat-icon-wrap" style="background:#3ddc8422;color:#3ddc84">💻</div>
+          <div class="cat-info">
+            <div class="cat-name">Разработка читов</div>
+            <div class="cat-desc">C++, DLL, внутренние и внешние читы</div>
+          </div>
+          <div class="cat-meta">
+            <span class="meta-threads">980 тредов</span>
+            <span class="meta-posts">14 300 постов</span>
+          </div>
+          <div class="cat-last">
+            <a href="thread.html" class="last-thread-title">Помогите с D3D9 хуком</a>
+            <span class="last-thread-time">1 час назад · <b>dev_zero</b></span>
+          </div>
+        </a>
+
+        <a href="forum.html" class="category-row">
+          <div class="cat-icon-wrap" style="background:#29b6f622;color:#29b6f6">🔧</div>
+          <div class="cat-info">
+            <div class="cat-name">Реверс-инжиниринг</div>
+            <div class="cat-desc">IDA, Ghidra, x64dbg, патчинг</div>
+          </div>
+          <div class="cat-meta">
+            <span class="meta-threads">540 тредов</span>
+            <span class="meta-posts">7 800 постов</span>
+          </div>
+          <div class="cat-last">
+            <a href="thread.html" class="last-thread-title">Как снять защиту с VMProtect</a>
+            <span class="last-thread-time">3 часа назад · <b>rev_master</b></span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+
+    <!-- Online users -->
+    <div class="widget">
+      <div class="widget-head">🟢 Онлайн <span class="badge">341</span></div>
+      <div class="widget-body online-list">
+        <span class="online-user vip">k1r0v</span>
+        <span class="online-user">ghost_npc</span>
+        <span class="online-user mod">AdminPro</span>
+        <span class="online-user">xXcheaterXx</span>
+        <span class="online-user vip">plushKing</span>
+        <span class="online-user">seller_pro</span>
+        <span class="online-user">anon4421</span>
+        <span class="online-user">dev_zero</span>
+        <span class="online-user mod">Moderator</span>
+        <span class="online-user">buyer22</span>
+        <span class="online-more">и ещё 331…</span>
+      </div>
+    </div>
+
+    <!-- Top threads -->
+    <div class="widget">
+      <div class="widget-head">🔥 Горячие треды</div>
+      <div class="widget-body">
+        <div class="hot-thread">
+          <a href="thread.html" class="hot-title">лучший приват для CS2 без бана?</a>
+          <span class="hot-meta">842 ответа · 12k просмотров</span>
+        </div>
+        <div class="hot-thread">
+          <a href="thread.html" class="hot-title">Продам аккаунт CS2 Prime 2000 часов</a>
+          <span class="hot-meta">311 ответа · 5.4k просмотров</span>
+        </div>
+        <div class="hot-thread">
+          <a href="thread.html" class="hot-title">ESP без бана в Rust 2024</a>
+          <span class="hot-meta">209 ответа · 3.8k просмотров</span>
+        </div>
+        <div class="hot-thread">
+          <a href="thread.html" class="hot-title">Помогите с D3D9 хуком</a>
+          <span class="hot-meta">178 ответа · 2.1k просмотров</span>
+        </div>
+        <div class="hot-thread">
+          <a href="thread.html" class="hot-title">Valorant undetected aimbot</a>
+          <span class="hot-meta">156 ответа · 1.9k просмотров</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- New members -->
+    <div class="widget">
+      <div class="widget-head">🆕 Новые участники</div>
+      <div class="widget-body">
+        <div class="new-member">
+          <span class="avatar-sm">R</span>
+          <span class="member-name">ruster99</span>
+          <span class="member-date">сегодня</span>
+        </div>
+        <div class="new-member">
+          <span class="avatar-sm">V</span>
+          <span class="member-name">v4l0_king</span>
+          <span class="member-date">сегодня</span>
+        </div>
+        <div class="new-member">
+          <span class="avatar-sm">A</span>
+          <span class="member-name">anon4421</span>
+          <span class="member-date">вчера</span>
+        </div>
+        <div class="new-member">
+          <span class="avatar-sm">N</span>
+          <span class="member-name">notHacking</span>
+          <span class="member-date">вчера</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Banner -->
+    <div class="widget widget-banner">
+      <div class="banner-tag">VIP ДОСТУП</div>
+      <div class="banner-title">Получи приватные разделы</div>
+      <div class="banner-desc">Эксклюзивные читы, слив баз, закрытые треды и личный саппорт</div>
+      <a href="#" class="btn btn-primary" style="width:100%;text-align:center;margin-top:12px">Купить VIP</a>
+    </div>
+
+  </aside>
+
+</div>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <a href="index.html" class="logo">
+      <span class="logo-mark">✦</span>
+      <span class="logo-text">plush<span class="logo-accent">.cc</span></span>
+    </a>
+    <div class="footer-links">
+      <a href="#">Правила</a>
+      <a href="#">Контакты</a>
+      <a href="#">Discord</a>
+      <a href="#">Telegram</a>
+      <a href="#">VIP</a>
+    </div>
+    <div class="footer-copy">© 2024 plush.cc — все права защищены</div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
